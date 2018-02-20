@@ -1,60 +1,34 @@
 /* Page Layout Styles */
+* {
+  box-sizing: border-box;
+}
 html {
-  background-color: #A5A5A5;
+  background-color: #000;
   color: #FFF;
+  text-align: center;
 }
 
 .page1-bg {
-  background-image: url('images/guitar-bg.jpg');
-  height: 70vh;
-  width: 100vw;
+  background-image: url('images/landing-bg.jpg');
+  text-align: right;
 }
 
 .page2-bg {
-  background-color: #0E1152;
-  height: 70vh;
-  width: 100vw;
+  background-image: url('images/textured-bg.jpg');
 }
 
 .page3-bg {
-  background-color: #044573;
-  height: 70vh;
-  width: 100vw;
+  background-image: url('images/circular-bg.jpg');
 }
 
 .page4-bg {
-  background-color: #044573;
-  height: 70vh;
-  width: 100vw;
+  background-image: url('images/3744802-grey-wallpaper.jpg');
 }
 
-/* typewriter effect */
-/* DEMO-SPECIFIC STYLES */
-.typewriter-holder {
-  margin-top: 40px;
+/* Typography */
+.h1-reduced{
+  font-size: 50px;
 }
-.typewriter {
-  color: #fff;
-  font-family: monospace;
-  font-size: 25px;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+.h2-subtext {
+  font-size: 20px;
 }
