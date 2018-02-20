@@ -1,1 +1,24 @@
+/* Page Layout Styles */
+html {
+  background-color: #A5A5A5;
+}
 
+.page1-bg {
+  background-image: url('/images/guitar-bg.jpg');
+  height: 70vh;
+}
+
+.page2-bg {
+  background-color: #0E1152;
+  height: 70vh;
+}
+
+.page3-bg {
+  background-color: #044573;
+  height: 70vh;
+}
+
+.page4-bg {
+  background-color: #044573;
+  height: 70vh;
+}
