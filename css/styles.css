@@ -9,20 +9,31 @@ html {
 }
 
 .page1-bg {
-  background-image: url('images/landing-bg.jpg');
+  background-image: url('images/poss-2.jpg');
+  background-position: center;
+  background-size: cover;
   text-align: right;
 }
 
 .page2-bg {
-  background-image: url('images/textured-bg.jpg');
+  /* background-image: url('images/red-black-abstract-i-f.jpg');
+  background-position: center;
+  background-size: cover; */
+  background-color: #323334;
 }
 
 .page3-bg {
-  background-image: url('images/circular-bg.jpg');
+  /* background-image: url('images/red-black-abstract.jpg');
+  background-position: center;
+  background-size: cover; */
+  background-color: #4191B3;
 }
 
 .page4-bg {
-  background-image: url('images/3744802-grey-wallpaper.jpg');
+  /* background-image: url('images/red-black-contact.jpg');
+  background-position: center;
+  background-size: cover; */
+  background-color: #3A81BD;
 }
 
 /* Typography */
@@ -31,4 +42,19 @@ html {
 }
 .h2-subtext {
   font-size: 20px;
+}
+
+.name {
+  color: #2DC6D9;
+}
+
+/* IMAGES */
+.project-images {
+  height: 30vw;
+  width: 60vw;
+}
+
+i {
+  height: 20px;
+  width: 20px;
 }

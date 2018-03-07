@@ -6,29 +6,88 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <!-- <link rel="stylesheet" href="css/tiltedpage-scroll.css"> -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <!-- <script type="text/javascript" src="js/jquery.tiltedpage-scroll.js"></script> -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
   <div id="fullpage">
-  	<div class="section page1-bg">
+    <div class="section page1-bg">
       <div class="container">
         <div class="row">
           <div class="col s12">
-            <h1 class="h1-reduced">Hello, I'm Anish Vadher</h1>
+            <h1 class="h1-reduced">Hello, I'm <span class="name">Anish Vadher</span></h1>
             <h2 class="h2-subtext">I'm a Full-Stack Web Developer</h2>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s10">
+            <i class="fab fa-github fa-2x"></i>
+          </div>
+          <div class="col s1">
+            <i class="fas fa-envelope fa-2x"></i>
+          </div>
+          <div class="col s1">
+            <i class="fab fa-linkedin fa-2x"></i>
           </div>
         </div>
       </div>
     </div>
-  	<div class="section page2-bg">Some section</div>
-  	<div class="section page3-bg">Some section</div>
-  	<div class="section page4-bg">Some section</div>
+    <div class="section page2-bg">
+      <!-- <div class="slide">
+        <h2 class="h2-subtext">Project 4</h2>
+      </div> -->
+      <div class="slide">
+        <h2>On That Wave</h2>
+        <img src="./css/images/p3-ss.jpg" alt="project 3 image" class="project-images">
+        <div class="container">
+          <div class="row">
+            <div class="col s6">
+              <h3 class="h2-subtext">Project 3</h3>
+              <p>Group project</p>
+              <p>A RESTful, Full-Stack MEAN Application.</p>
+            </div>
+            <div class="col s6">
+              <p>Tech Stack:</p>
+              <p>HTML5, CSS3, Sass/SCSS, JavaScript, AngularJS, ngMessages, Node.js, Express.js, MongoDb, Yarn, Gulp, Git, Mocha, Chai, nyc, Supertest, API, Bcrypt, JSONWebTokens, Bower, mongoose</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="slide">
+        <img src="./css/images/p2-ss.jpg" alt="project 2 image" class="project-images">
+        <h2 class="h2-subtext">Project 2</h2>
+      </div>
+      <div class="slide">
+        <img src="./css/images/p1-ss.jpg" alt="project 1 image" class="project-images">
+        <h2 class="h2-subtext">Project 1</h2>
+      </div>
+    </div>
+    <div class="section page3-bg">
+      <h2>About Me</h2>
+    </div>
+    <div class="section page4-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h2>Get In Touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <a class="btn btn-floating btn-large cyan pulse"><i class="material-icons">email</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
