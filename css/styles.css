@@ -65,11 +65,8 @@ i {
 }
 
 .theme-btn {
-  background-color: #4191B3;
-  opacity: 0.5;
-  border: none;
-  padding: 10px;
   margin-top: 20px;
+  opacity: 0.8;
 }
 
 /* SECOND THEME */

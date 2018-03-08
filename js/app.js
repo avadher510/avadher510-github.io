@@ -11,7 +11,6 @@ $( document ).ready(function() {
   const $emailbtn = $('.cyan');
   const $collapsible = $('.collapsible');
   const $collapsibleHeader = $('.collapsible-header');
-  const $changeTheme = $('.theme-btn');
 
   $themebtn.click(function() {
     $page1bg.toggleClass('page1-bg-dv');
