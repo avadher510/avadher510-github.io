@@ -2,10 +2,12 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   background-color: #000;
   color: #FFF;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -13,7 +15,7 @@ header {
 }
 
 .page1-bg {
-  background-image: url('images/poss-2.jpg');
+  background-image: url('images/network-2.jpg');
   background-position: center;
   background-size: cover;
   text-align: right;
@@ -45,6 +47,7 @@ header {
 
 .name {
   color: #2DC6D9;
+  /* color: #323334; */
 }
 
 a {
@@ -53,7 +56,7 @@ a {
 }
 
 p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /* IMAGES */
@@ -78,7 +81,6 @@ i {
 
 .theme-btn {
   margin-top: 20px;
-  opacity: 0.8;
 }
 
 /* SECOND THEME */
