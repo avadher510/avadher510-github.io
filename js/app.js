@@ -9,5 +9,6 @@ $( document ).ready(function() {
   // });
   $('#fullpage').fullpage();
   $('.modal').modal();
+  $('.collapsible').collapsible();
 
 });

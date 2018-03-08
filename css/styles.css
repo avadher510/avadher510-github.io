@@ -63,3 +63,12 @@ i {
   height: 20px;
   width: 20px;
 }
+
+/* About Me */
+.collapsible {
+  background-color: #3A81BD;
+}
+
+.collapsible-header {
+  background-color: #4191B3;
+}
