@@ -8,5 +8,6 @@ $( document ).ready(function() {
   //   outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
   // });
   $('#fullpage').fullpage();
+  $('.modal').modal();
 
 });

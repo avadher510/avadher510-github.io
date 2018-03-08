@@ -40,7 +40,7 @@ html {
 .h1-reduced{
   font-size: 50px;
 }
-.h2-subtext {
+.subtext {
   font-size: 20px;
 }
 
@@ -48,10 +48,15 @@ html {
   color: #2DC6D9;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* IMAGES */
 .project-images {
-  height: 30vw;
-  width: 60vw;
+  height: 20vw;
+  width: 40vw;
 }
 
 i {
