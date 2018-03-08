@@ -8,6 +8,10 @@ html {
   text-align: center;
 }
 
+header {
+  text-align: right;
+}
+
 .page1-bg {
   background-image: url('images/poss-2.jpg');
   background-position: center;
@@ -28,6 +32,10 @@ html {
 }
 
 /* Typography */
+.description {
+  display: none;
+}
+
 .h1-reduced{
   font-size: 50px;
 }
@@ -42,6 +50,10 @@ html {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+p {
+  font-size: 12px;
 }
 
 /* IMAGES */

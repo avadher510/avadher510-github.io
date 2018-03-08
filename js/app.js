@@ -12,13 +12,15 @@ $( document ).ready(function() {
   const $collapsible = $('.collapsible');
   const $collapsibleHeader = $('.collapsible-header');
 
+  // $description.delay(2000).fadeIn(400);
+
   $themebtn.click(function() {
     $page1bg.toggleClass('page1-bg-dv');
     $page2bg.toggleClass('page2-bg-dv');
     $page3bg.toggleClass('page3-bg-dv');
     $page4bg.toggleClass('page4-bg-dv');
-    $name.toggleClass('name-dv');
     $emailbtn.toggleClass('red');
+    $name.addClass('zoomInDown').toggleClass('name-dv');
     $collapsible.toggleClass('collapsible-dv');
     $collapsibleHeader.toggleClass('collapsible-header-dv');
   });
