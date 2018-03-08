@@ -11,18 +11,26 @@ $( document ).ready(function() {
   const $emailbtn = $('.cyan');
   const $collapsible = $('.collapsible');
   const $collapsibleHeader = $('.collapsible-header');
+  const $hLine = $('.h-line');
 
   // $description.delay(2000).fadeIn(400);
-
   $themebtn.click(function() {
     $page1bg.toggleClass('page1-bg-dv');
     $page2bg.toggleClass('page2-bg-dv');
     $page3bg.toggleClass('page3-bg-dv');
     $page4bg.toggleClass('page4-bg-dv');
     $emailbtn.toggleClass('red');
-    $name.addClass('zoomInDown').toggleClass('name-dv');
     $collapsible.toggleClass('collapsible-dv');
     $collapsibleHeader.toggleClass('collapsible-header-dv');
+
+
+    if($name[0].innerText === 'Anish Vadher') {
+      $name.addClass('zoomInDown').toggleClass('name-dv');
+      $hLine.toggleClass('h-line-dv');
+    } else {
+      $name.addClass('zoomInDown').toggleClass('name-dv').text('Anish Vadher');
+    }
+
   });
 
 });

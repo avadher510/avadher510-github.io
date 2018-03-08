@@ -59,6 +59,10 @@ p {
   font-size: 15px;
 }
 
+.h-line {
+  text-decoration: none;
+}
+
 /* IMAGES */
 .project-images {
   height: 20vw;
@@ -118,4 +122,9 @@ i {
 
 .collapsible-header-dv {
   background-color: #5f0000;
+}
+
+.h-line-dv {
+  text-decoration: line-through;
+
 }
