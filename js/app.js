@@ -1,14 +1,27 @@
 $( document ).ready(function() {
-
-  // $('.main').tiltedpage_scroll({
-  //   sectionContainer: '> section',     // In case you don't want to use <section> tag, you can define your won CSS selector here
-  //   angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
-  //   opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
-  //   scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
-  //   outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
-  // });
   $('#fullpage').fullpage();
-  $('.modal').modal();
   $('.collapsible').collapsible();
+
+  const $page1bg = $('.page1-bg');
+  const $page2bg = $('.page2-bg');
+  const $page3bg = $('.page3-bg');
+  const $page4bg = $('.page4-bg');
+  const $name = $('.name');
+  const $themebtn = $('#theme');
+  const $emailbtn = $('.cyan');
+  const $collapsible = $('.collapsible');
+  const $collapsibleHeader = $('.collapsible-header');
+  const $changeTheme = $('.theme-btn');
+
+  $themebtn.click(function() {
+    $page1bg.toggleClass('page1-bg-dv');
+    $page2bg.toggleClass('page2-bg-dv');
+    $page3bg.toggleClass('page3-bg-dv');
+    $page4bg.toggleClass('page4-bg-dv');
+    $name.toggleClass('name-dv');
+    $emailbtn.toggleClass('red');
+    $collapsible.toggleClass('collapsible-dv');
+    $collapsibleHeader.toggleClass('collapsible-header-dv');
+  });
 
 });

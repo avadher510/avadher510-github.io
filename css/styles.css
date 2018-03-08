@@ -16,23 +16,14 @@ html {
 }
 
 .page2-bg {
-  /* background-image: url('images/red-black-abstract-i-f.jpg');
-  background-position: center;
-  background-size: cover; */
   background-color: #323334;
 }
 
 .page3-bg {
-  /* background-image: url('images/red-black-abstract.jpg');
-  background-position: center;
-  background-size: cover; */
   background-color: #4191B3;
 }
 
 .page4-bg {
-  /* background-image: url('images/red-black-contact.jpg');
-  background-position: center;
-  background-size: cover; */
   background-color: #3A81BD;
 }
 
@@ -71,4 +62,49 @@ i {
 
 .collapsible-header {
   background-color: #4191B3;
+}
+
+.theme-btn {
+  background-color: #4191B3;
+  opacity: 0.5;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* SECOND THEME */
+.page1-bg-dv {
+  background-image: url('images/dv-bg.png');
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+
+.page2-bg-dv {
+  background-image: url('images/red-black-pg2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.page3-bg-dv {
+  background-color: #801515;
+}
+
+.page4-bg-dv {
+  background-image: url('images/red-saber.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.name-dv {
+  color: #CE0C2C;
+}
+
+.collapsible-dv {
+  background-color: #5A0909;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.collapsible-header-dv {
+  background-color: #5f0000;
 }
