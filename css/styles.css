@@ -129,10 +129,16 @@ i {
 }
 
 @media only screen and (max-width: 480px) {
-  .page1-bg {
+  .page1-bg-dv {
     background-image: url('images/dv-bg-mob.png');
     background-position: center;
     background-size: cover;
     text-align: right;
   }
+
+  .page4-bg-dv {
+    background-image: url('images/red-saber-mob.jpg');
+    background-position: center;
+    background-size: cover;
   }
+}
