@@ -126,5 +126,13 @@ i {
 
 .h-line-dv {
   text-decoration: line-through;
-
 }
+
+@media only screen and (max-width: 480px) {
+  .page1-bg {
+    background-image: url('images/dv-bg-mob.png');
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+  }
+  }
