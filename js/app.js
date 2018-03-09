@@ -12,6 +12,7 @@ $( document ).ready(function() {
   const $collapsible = $('.collapsible');
   const $collapsibleHeader = $('.collapsible-header');
   const $hLine = $('.h-line');
+  const $stwrsLine = $('.stwrs-line');
 
   // $description.delay(2000).fadeIn(400);
   $themebtn.click(function() {
@@ -22,6 +23,7 @@ $( document ).ready(function() {
     $emailbtn.toggleClass('red');
     $collapsible.toggleClass('collapsible-dv');
     $collapsibleHeader.toggleClass('collapsible-header-dv');
+    $stwrsLine.toggleClass('stwrs-line-dv');
 
 
     if($name[0].innerText === 'Anish Vadher') {
