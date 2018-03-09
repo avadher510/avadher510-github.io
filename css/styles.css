@@ -141,4 +141,13 @@ i {
     background-position: center;
     background-size: cover;
   }
+
+  .text-mobile {
+    font-size: 12px;
+  }
+
+  .proj-hidden{
+    display: none;
+  }
+
 }
