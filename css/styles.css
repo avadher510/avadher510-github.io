@@ -158,4 +158,13 @@ i {
     display: none;
   }
 
+  .slide-lift {
+    margin-top: -30%;
+  }
+
+  .proj-img-mob {
+    width: 70vw;
+    height: 30vh;
+  }
+
 }
