@@ -22,15 +22,15 @@ header {
 }
 
 .page2-bg {
-  background-color: #323334;
+  background-color: #089DF5;
 }
 
 .page3-bg {
-  background-color: #4191B3;
+  background-color: #0281CC;
 }
 
 .page4-bg {
-  background-color: #3A81BD;
+  background-color: #025B90;
 }
 
 /* Typography */
@@ -46,8 +46,7 @@ header {
 }
 
 .name {
-  color: #2DC6D9;
-  /* color: #323334; */
+  color: #089DF5;
 }
 
 a {
@@ -80,11 +79,11 @@ i {
 
 /* About Me */
 .collapsible {
-  background-color: #3A81BD;
+  background-color: #025B90;
 }
 
 .collapsible-header {
-  background-color: #4191B3;
+  background-color: #089DF5;
 }
 
 .theme-btn {
